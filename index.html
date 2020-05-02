@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>π tágoras </title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1> <b>Calculadora do Futuro</b></h1>
+    </header>
+    <div class="container" id="calculadora">
+    
+        <div class="col-md-12 offset-md-3" class="InputCatetos">
+
+            <p id="textinho">Mande os catetos para o futuro!</p>
+           
+            <div class="form-group col-md-6 ">
+                <input type="number" class="form-control" id="cateto1" name="input1" placeholder="Cateto Adjacente"   >
+            </div>
+            <div class="form-group col-md-6">
+                <input type="number" class="form-control" id="cateto2" name="input2" placeholder="Cateto Oposto" >
+            </div>
+
+
+        </div>
+    
+        <div class="col text-center">
+            <button type="button" class="btn btn-secondary btn-lg" id="btnEnviar"
+                data-element="#aparece">Enviar!</button>
+
+        </div>
+
+        <div class="row" id="aparece" style="display:none;">
+
+            <div class="form-group col-md-4">
+                <label for="">Hipotenusa</label>
+                <input type="number" class="form-control" id="hipotenusa" readonly>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="">Seno α </label>
+                <input type="number" class="form-control" id="senoA" readonly>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="">Seno β</label>
+                <input type="number" class="form-control" id="senoB" readonly>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="">Coseno α</label>
+                <input type="number" class="form-control" id="cosA" readonly>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">Coseno β</label>
+                <input type="number" class="form-control" id="cosB" readonly>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="">Tangente α</label>
+                <input type="number" class="form-control" id="tanA" readonly>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">Tangente β</label>
+                <input type="number" class="form-control" id="tanB" readonly>
+            </div>
+
+        </div>
+
+        
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+#calculadora{
+    background-color: cornsilk;
+    width: 700px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 15pt;
+}
+#cabecalho{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25pt;
+    font-family:  Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+#InputCatetos{
+    margin-top: 10px;
+}
+body{
+    background-color: black;
+}
+
+#textinho{
+    font-size: 15pt;
+    font-family:  Arial, Helvetica, sans-serif;
+}
